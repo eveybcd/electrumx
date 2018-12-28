@@ -53,7 +53,7 @@ The following are required if you use the ``run`` script:
 
 .. envvar:: ELECTRUMX
 
-  The path to the electrumx_server.py script.  Relative paths should
+  The path to the electrumx_server script.  Relative paths should
   be relative to the directory of the ``run`` script.
 
 .. envvar:: USERNAME
@@ -418,6 +418,5 @@ your available physical RAM:
 
   I do not recommend raising this above 2000.
 
-.. _lib/coins.py:
-   https://github.com/kyuupichan/electrumx/blob/master/lib/coins.py
+.. _lib/coins.py: https://github.com/kyuupichan/electrumx/blob/master/electrumx/lib/coins.py
 .. _uvloop: https://pypi.python.org/pypi/uvloop
